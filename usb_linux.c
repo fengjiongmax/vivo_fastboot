@@ -62,6 +62,12 @@
 #define DBG1(x...)
 #endif
 
+/*
+ * This is a temporary fix for major and minor function not found 
+ */
+#define major(dev)      ((dev)>>8)
+#define minor(dev)      ((dev) & 0xff)
+
 /* The max bulk size for linux is 16384 which is defined
  * in drivers/usb/core/devio.c.
  */
