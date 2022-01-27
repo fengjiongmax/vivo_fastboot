@@ -11,17 +11,7 @@ If you want to compile for windows, you probably have to use the whole AOSP sour
 
 How to compile :-
 
-Suggested toolchain : http://downloads.yoctoproject.org/releases/yocto/yocto-1.5/toolchain/
-
-Depending on your host machine select either x86_64 or i686 on the page, and then choose the file appropriate for your target hardware. If you are on a 64bit computer then download poky-eglibc-x86_64-core-image-sato-x86_64-toolchain-1.5.sh, since we want to run  fastboot on an x86_64 architecture later on.
-
-Assuming it was downloaded into Downloads, execute the script
-
-   chmod a+x ~/Downloads/poky-eglibc-x86_64-core-image-sato-x86_64-toolchain-1.5.sh ~/Downloads/poky-eglibc-x86_64-core-image-sato-x86_64-toolchain-1.5.sh
-
-You will be asked where you want to install the toolchain (default location is /opt/poky).
-
-Now clone the following aosp sources using git from android.googlesource.com (android-4.4_r**)
+Clone the following aosp sources using git from android.googlesource.com (android-4.4_r**)
 
 platform/system/core, platform/system/extras, /platform/external/libselinux, /platform/external/zlib, /platform/external/openssl. 
 

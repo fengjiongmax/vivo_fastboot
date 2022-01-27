@@ -115,7 +115,7 @@ CPPFLAGS+= -I../../../external/libselinux/include
  
 CFLAGS+= -O2 -g -Wall -Wno-unused-parameter
 
-TOOLCHAIN= /opt/poky/1.5/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-poky-linux/x86_64-poky-linux-
+# TOOLCHAIN= /opt/poky/1.5/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-poky-linux/x86_64-poky-linux-
 CC= $(TOOLCHAIN)gcc
 LD= $(TOOLCHAIN)gcc
  
