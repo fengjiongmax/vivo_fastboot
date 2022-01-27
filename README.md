@@ -11,7 +11,7 @@ If you want to compile for windows, you probably have to use the whole AOSP sour
 
 How to compile :-
 
-Clone the following aosp sources using git from android.googlesource.com (android-4.4_r**)
+Clone the following aosp sources using git from android.googlesource.com (android-4.4_r**,branch name: kitkat-release)
 
 platform/system/core, platform/system/extras, /platform/external/libselinux, /platform/external/zlib, /platform/external/openssl. 
 
